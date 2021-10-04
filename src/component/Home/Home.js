@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Card, Col,  Row , Button} from 'react-bootstrap';
+import { Card, Col,  Row , Button, Container} from 'react-bootstrap';
 import Slider from '../slider/Slider';
 import './home.css'
 
@@ -11,17 +11,18 @@ const Home = () => {
       .then(data => setServices(data))
     },[])
     return (
-          
-           <div className="cart">
-               {/* this slider component  */}
-               <Slider />
-               
+         <div className="bg-style">
+              {/* this slider component  */}
+              <Slider />
+
+           <Container className="cart">
+              
                <h1>Our Service</h1>
             <Row className="single-card">
                 
                 {
                     servises.map(service=>(
-                         <Col xs={6} md={4}>
+                         <Col xs={6} md={6}>
                               <Card>
                                 <Card.Img style={{height:"250px"}} variant="top" src={service.img} />
                                 <Card.Body>
@@ -38,8 +39,8 @@ const Home = () => {
                 
             </Row>
             
-        </div>
-    
+        </Container>
+     </div> 
     );
 };
 

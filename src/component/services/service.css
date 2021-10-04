@@ -1,0 +1,24 @@
+.service{
+    background-image:linear-gradient(#ababc0, #afacee);
+   
+    
+}
+
+
+.header-content{
+    background-image:linear-gradient(#305580, #7671d6 );
+}
+.header-title{
+    color: white;
+    
+    padding:10px 13px ;
+}
+
+.single-card{
+    padding: 10px 25px;
+}
+.carded{
+    border-radius: 10px;
+    padding: 10px 25px;
+
+}

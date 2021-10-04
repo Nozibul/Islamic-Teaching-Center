@@ -29,21 +29,6 @@
                 "address":"Jedda,Soudiarob",
                 "price":150,
                 "email":"as-sunnah-center@gmail.com"
-            },
-            {
-                "name":"Arabic Language",
-                "description":"I thought we’d look into the old Damascene house البيت الدمشقي القديم which is famous for its unique architecture الهندسة المعمارية المميزة and style",
-                "img":"https://i0.wp.com/thechoice.one/wp-content/uploads/2017/02/Sahih-al-Bukhari_Arabic-English_All_Volumes_1-to-9.jpg?fit=1170%2C500",
-                "address":"Jedda,Soudiarob",
-                "price":250,
-                "email":"as-sunnah-center@gmail.com"
-            },
-            {
-                "name":"Hadith",
-                "description":"The term Hadith derives from the Arabic root ḥ-d-th meaning“to report,” or “to speak of.” It means tradition seen as narrative and record",
-                "img":"https://i0.wp.com/thechoice.one/wp-content/uploads/2017/02/Sahih-al-Bukhari_Arabic-English_All_Volumes_1-to-9.jpg?fit=1170%2C500",
-                "address":"Jedda,Soudiarob",
-                "price":350,
-                "email":"as-sunnah-center@gmail.com"
             }
+           
     ]

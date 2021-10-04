@@ -1,0 +1,28 @@
+.header-area{
+    display: flex;
+    background-color: rgba(16, 156, 70, 0.87);
+    padding: 7px;
+
+    
+}
+.nav-menu{
+    margin: auto;
+}
+.navlink {
+    font-size: 20px;
+}
+
+.nav1{
+    text-decoration: none;
+    margin-left: 50px ;
+    color:white;
+    text-transform: uppercase;
+
+}
+.nav1:hover{
+    color:thistle;
+}
+
+.logo{
+    color: white;
+}

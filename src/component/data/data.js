@@ -37,7 +37,7 @@ const service = [
     },
     {
         name: 'Arabic Language',
-        description:'I thought we’d look into the old Damascene house البيت الدمشقي القديم which is famous for its unique architecture الهندسة المعمارية المميزة and style' ,
+        description:'I thought we’d look into the old Damascene house البيت الدمشقي القديم which is famous for its unique architecture الهندسة المعمارية ' ,
         img:'https://i2.wp.com/madrasatelquran.com/wp-content/uploads/2019/07/2.jpg?resize=1000%2C1000&ssl=1',
         address: 'Jedda,Soudi Arob',
         price : 250 ,
@@ -46,11 +46,39 @@ const service = [
     },
     {
         name: 'Hadith',
-        description:'The term Hadith derives from the Arabic root ḥ-d-th meaning “to happen” and so “to tell a happening,” “to report,” or “to speak of.” It means tradition seen as narrative and record' ,
+        description:'The term Hadith derives from the Arabic root ḥ-d-th meaning “to happen” and so “to tell a happening,” “to report,” “to speak of.” It means tradition.' ,
         img:'https://i0.wp.com/thechoice.one/wp-content/uploads/2017/02/Sahih-al-Bukhari_Arabic-English_All_Volumes_1-to-9.jpg?fit=1170%2C500',
         address: 'Jedda,Soudi Arob',
         price : 350 ,
         email:"as-sunnah-center@gmail.com" 
        
-    }
+    },
+    {
+        name: 'Dawha Training',
+        description:'Throwable objects with marked sides that can rest in multiple positions. They are used for generating random numbers, ' ,
+        img:'https://i.ytimg.com/vi/r_wW6dxPuq4/maxresdefault.jpg',
+        address: 'Jedda,Soudi Arob',
+        price : 150 ,
+        email:"as-sunnah-center@gmail.com" 
+       
+    },
+      
+   {
+        name: 'Islmic Aqeedah',
+        description:'It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable.' ,
+        img:'https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Istanbul%2C_Hagia_Sophia%2C_Allah.jpg/185px-Istanbul%2C_Hagia_Sophia%2C_Allah.jpg',
+        address: 'Jedda,Soudi Arob',
+        price : 450 ,
+        email:"as-sunnah-center@gmail.com" 
+       
+    },
+   {
+        name: 'Islmic Shoriah',
+        description:'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour ' ,
+        img:'https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Koran.JPG/300px-Koran.JPG',
+        address: 'Jedda,Soudi Arob',
+        price : 400 ,
+        email:"as-sunnah-center@gmail.com" 
+       
+    },
 ]

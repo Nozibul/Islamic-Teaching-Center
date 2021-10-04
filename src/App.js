@@ -1,24 +1,38 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Button } from 'react-bootstrap';
 import './App.css';
 import Home from './component/Home/Home';
-import Slider from './component/slider/Slider';
+
 import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
 } from "react-router-dom";
+
 import Notfound from './component/NotFound/Notfound';
+import About from './component/about/About';
+import Services from './component/services/Services';
+import Header from './component/Header/Header';
 
 function App() {
   return (
     <div className="App">
         
         <Router>
+          {/* Header nav link */}
+           <Header />
+
           <Switch>
-             <Route path="/home">
+          <Route exact path="/">
                <Home />
+             </Route>
+             <Route exact path="/home">
+               <Home />
+             </Route>
+             <Route path="/about">
+               <About />
+             </Route>
+             <Route path="/services">
+               <Services />
              </Route>
              <Route path="*">
                <Notfound />
