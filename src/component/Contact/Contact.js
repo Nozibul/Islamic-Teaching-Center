@@ -8,10 +8,10 @@ import image3 from '../../images/slider/download (1).png'
 const Contact = () => {
     return (
     <div className="contact-bg">
-            <h2>contact</h2>
+            <h2 className="title-content">Contact</h2>
           <Row>  
             <Col xs={6} md={4}>
-                <Card>
+                <Card className="all-col">
                   <Card.Img style={{height:"200px",width:"200px", margin:"auto"}} variant="top" src={image1} />
                     <Card.Body>
                       <Card.Title>Address</Card.Title>
@@ -22,7 +22,7 @@ const Contact = () => {
                  </Card>
             </Col>    
            <Col sm={6} md={4} >    
-                <Card>
+                <Card className="all-col">
                   <Card.Img style={{height:"200px",width:"200px", margin:"auto"}} variant="top" src={image2} />
                     <Card.Body>
                       <Card.Title>Phone</Card.Title>
@@ -33,7 +33,7 @@ const Contact = () => {
                  </Card>
             </Col>     
             <Col sm={6} md={4} >   
-                <Card>
+                <Card className="all-col">
                   <Card.Img style={{height:"200px",width:"200px", margin:"auto"}} variant="top" src={image3} />
                     <Card.Body>
                       <Card.Title>Office Hour</Card.Title>

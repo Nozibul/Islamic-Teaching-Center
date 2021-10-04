@@ -1,4 +1,12 @@
+.title-content{
+    color: thistle;
+}
 .contact-bg{
     background-image:linear-gradient(#69698a, #8986c2);
     padding: 30px;
+}
+.all-col{
+    background-color: rgba(0, 128, 128, 0.568);
+    color:whitesmoke;
+    padding-top: 20px;
 }
