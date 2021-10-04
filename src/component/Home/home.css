@@ -1,0 +1,17 @@
+.cart{
+    background-image:linear-gradient(#bcbcc0, #c7c5ec);
+    width: 100%;
+    
+   
+}
+
+.card >h1{
+    color: rgb(236, 114, 26);
+    font-weight: 700;
+    padding: 20px 0;
+}
+/* .single-card{
+   
+    margin: 10px;
+   
+} */

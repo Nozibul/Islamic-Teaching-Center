@@ -1,110 +1,56 @@
 const service = [
     {
-        name: 'Doris Wilson',
-        qualifications:'BSc with QTS.',
-        subject: 'C',
-        age: 34,
-        img: "https://thumbs.dreamstime.com/b/portrait-young-male-teacher-background-school-blackboard-teacher-s-day-knowledge-day-back-to-school-study-159722312.jpg",
-        address: 'Ness city',
-        salary : 25000
+        name: 'Quran Memrorization',
+        description:'Islam is the know how to pursue pleasure rationally encounter consequences that are extremely painful.',
+        img:'https://st2.depositphotos.com/5061925/11835/i/950/depositphotos_118356228-stock-photo-muslim-man-reading-quran.jpg',
+        address: 'Jedda,Soudi Arob',
+        price : 200 ,
+        email:"as-sunnah-center@gmail.com" 
+       
     },
     {
-        name: 'Amy Smith',
-        qualifications:'BSc in CSE',
-        subject: 'C++',
-        age: 33,
-        img: "https://st.depositphotos.com/1518767/3618/i/600/depositphotos_36184557-stock-photo-teacher-with-tablet-pc-in.jpg",
-        address: 'Baznie',
-        salary : 31000
+        name: 'Special Child Care',
+        description:'Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because',
+        img:'https://image.shutterstock.com/image-photo/kids-islam-260nw-43191160.jpg',
+        address: 'Jedda,Soudi Arob',
+        price : 220 ,
+        email:"as-sunnah-center@gmail.com" 
+       
     },
     {
-        name: ' Whitecotton',
-        qualifications:'BSc in CSE',
-        subject: 'JAVA',
-        age: 32,
-        img: "https://thumbs.dreamstime.com/b/young-male-teacher-standing-near-blackboard-young-male-teacher-standing-near-blackboard-white-background-114171081.jpg" ,
-        address: 'Aleander',
-        salary : 28000
+        name: 'Funeral Service',
+        description:'Islam is the know how t pursure pleasure ration encounter conseqnces thats are extermely painful again is there anyone.',
+        img:'https://ichef.bbci.co.uk/news/976/cpsprodpb/4D6F/production/_89932891_hi033370804.jpg',
+        address: 'Jedda,Soudiarob',
+        price : 300 ,
+        email:"as-sunnah-center@gmail.com" 
+       
     },
     {
-        name: 'Geraldine Carpenter',
-        qualifications:'MSc in CSE',
-        subject: 'JavaScript',
-        age: 38,
-        img: 'https://image.shutterstock.com/image-photo/portrait-male-teacher-book-on-260nw-1502915426.jpg' ,
-        address: 'Rush Center',
-        salary : 45000
+        name: 'Islamic Song',
+        description:'Singing moral songs of this type without instrumentation is considered permissible (halal) by many Muslims.' ,
+        img:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSD8yLh5rRxTM2PpVrwtyXEFLs-iUhTOxykke_W9YlP_e96ebBTHo1NXOI43Ta--VnKSEs&usqp=CAU',
+        address: 'Jedda,Soudi Arob',
+        price : 150 ,
+        email:"as-sunnah-center@gmail.com" 
+       
     },
     {
-        name: 'Edna Francis',
-        qualifications:'BSc with QTS.',
-        subject: 'Data Structure',
-        age: 25,
-        img:'https://media.istockphoto.com/photos/young-male-educator-stands-proudly-in-school-building-picture-id1023229588?k=20&m=1023229588&s=612x612&w=0&h=frmAGI7ieDZmnqHu1hVRW-PRgBj7YFojTlh8f_dl3BU=' ,
-        address: 'Gray',
-        salary : 18000
+        name: 'Arabic Language',
+        description:'I thought we’d look into the old Damascene house البيت الدمشقي القديم which is famous for its unique architecture الهندسة المعمارية المميزة and style' ,
+        img:'https://i2.wp.com/madrasatelquran.com/wp-content/uploads/2019/07/2.jpg?resize=1000%2C1000&ssl=1',
+        address: 'Jedda,Soudi Arob',
+        price : 250 ,
+        email:"as-sunnah-center@gmail.com" 
+       
     },
     {
-        name: 'Jennie Crigler',
-        qualifications:'BSc in CSE',
-        subject: 'Algorithm',
-        age: 32,
-        img: 'https://i.imgflip.com/17tv5e.jpg',
-        address: 'Otis',
-        salary : 23000
-    },
-    {
-        name: 'Gladys Swon',
-        qualifications:'MSc in CSE.',
-        subject: 'Database',
-        age: 40,
-        img:'https://img.freepik.com/free-photo/portrait-young-happy-smiling-teacher-student-man-standing-near-chalkboard_160360-283.jpg?size=626&ext=jpg' ,
-        address: 'Larned',
-        salary : 36000
-    },
-    {
-        name: 'Ruth Carman',
-        qualifications:'BSc in Mathemethics',
-        subject: 'Calculus',
-        age: 24,
-        img: 'https://thumbs.dreamstime.com/b/ happy-teachers-day-master-simplification-man-teacher-front-chalkboard-teaching-could-be-more-fun-advantages-male-173586945.jpg',
-        address: 'Hudson',
-        salary : 19000
-    },
-    {
-        name: 'Lida Gray Gibbs',
-        qualifications:'BSc in CSE',
-        subject: 'Machine Learning',
-        age: 31,
-        img: 'https://uconn-today-universityofconn.netdna-ssl.com/wp-content/uploads/2014/05/MaleMathTeacher.jpg',
-        address: 'Utica',
-        salary : 40000
-    },
-    {
-        name: 'Lela Pat Buckman',
-        qualifications:'BSc in CSE.',
-        subject: 'Syber Security',
-        age: 41,
-        img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTztQAAQqhfFNl2j9DwhH9mk2UAieFnhQww2A&usqp=CAU',
-        address: 'Hanston',
-        salary : 25000
-    },
-    {
-        name: 'Abigail Marlow',
-        qualifications:'MSc in CSE',
-        subject: 'Networking',
-        age: 30,
-        img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyTDpngNhZpVdOhyGWxW0NYgWf3c1bxTWejA&usqp=CAU',
-        address: 'Dundee',
-        salary : 26000
-    },
-    {
-        name: 'Irene Ball ',
-        qualifications:'BSc in CSE',
-        subject: 'Project Management',
-        age: 44,
-        img: 'https://i.dailymail.co.uk/i/pix/2009/01/19/article-1123133-031CE7B9000005DC-740_468x376.jpg',
-        address: 'Victoria',
-        salary : 27000
+        name: 'Hadith',
+        description:'The term Hadith derives from the Arabic root ḥ-d-th meaning “to happen” and so “to tell a happening,” “to report,” or “to speak of.” It means tradition seen as narrative and record' ,
+        img:'https://i0.wp.com/thechoice.one/wp-content/uploads/2017/02/Sahih-al-Bukhari_Arabic-English_All_Volumes_1-to-9.jpg?fit=1170%2C500',
+        address: 'Jedda,Soudi Arob',
+        price : 350 ,
+        email:"as-sunnah-center@gmail.com" 
+       
     }
 ]
