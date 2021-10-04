@@ -12,8 +12,8 @@ const Header = () => {
     return (
         <div className="header-area">
 
-            <div className="logo">
-               <p>This is header</p>
+            <div className="title">
+               <h3>Islamic Teaching Center</h3>
             </div>
             <Navbar className="nav-menu" >
                 

@@ -12,6 +12,7 @@ import Notfound from './component/NotFound/Notfound';
 import About from './component/about/About';
 import Services from './component/services/Services';
 import Header from './component/Header/Header';
+import Contact from './component/Contact/Contact';
 
 function App() {
   return (
@@ -25,15 +26,22 @@ function App() {
           <Route exact path="/">
                <Home />
              </Route>
+
              <Route exact path="/home">
                <Home />
              </Route>
+
              <Route path="/about">
                <About />
              </Route>
+
              <Route path="/services">
                <Services />
              </Route>
+             <Route path="/contact">
+               <Contact />
+             </Route>
+
              <Route path="*">
                <Notfound />
              </Route>

@@ -23,6 +23,10 @@
     color:thistle;
 }
 
-.logo{
-    color: white;
+.title{
+    color:rgb(104, 58, 104);
+    text-transform: uppercase;
+    margin-left: 20px;
+    text-align: center;
+    padding-top: 10px;
 }

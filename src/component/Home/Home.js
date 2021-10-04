@@ -19,7 +19,7 @@ const Home = () => {
            <Container className="cart">
               
                <h1 className="title">Our Service</h1>
-            <Row className="single-card">
+            <Row>
                 
                 {
                     servises.map(service=>(
@@ -30,12 +30,9 @@ const Home = () => {
                                     <Card.Title>{service.name}</Card.Title>
                                     <Card.Text>
                                         {service.description}
-                                    </Card.Text>
-                                    {/* <Button variant="success">
-                                        More Details
-                                    </Button> */}
-                                    <Link>More Details</Link>
-                                </Card.Body>
+                                        <h4>Per Pakage: ${service.price}</h4>
+                                   </Card.Text>
+                                   </Card.Body>
                                 </Card>
                         </Col>
                      ))
