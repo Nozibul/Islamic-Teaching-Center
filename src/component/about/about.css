@@ -1,0 +1,20 @@
+.about{
+
+    background-image:linear-gradient(#7e7eb8, #a7a4df);
+    padding: 20px ;
+
+}
+.title{
+    text-transform: uppercase;
+ } 
+ .contant{
+     color:teal;
+     font-weight: 700;
+     margin-top: 50px;
+ }
+ .description{
+     justify-content:center;
+     line-height: 30px;
+     color:rgb(212, 205, 205);
+ }
+
