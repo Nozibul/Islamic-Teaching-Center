@@ -5,10 +5,15 @@
    
 }
 
-.card >h1{
+.service-card{
+    
+    padding: 10px 20px;
+   
+}
+.title{
     color: rgb(236, 114, 26);
     font-weight: 700;
-    padding: 20px 0;
+    padding-top: 20px 0;
 }
 /* .single-card{
    

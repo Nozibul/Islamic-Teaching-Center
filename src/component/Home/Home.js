@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Card, Col,  Row , Button, Container} from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import Slider from '../slider/Slider';
 import './home.css'
 
@@ -17,12 +18,12 @@ const Home = () => {
 
            <Container className="cart">
               
-               <h1>Our Service</h1>
+               <h1 className="title">Our Service</h1>
             <Row className="single-card">
                 
                 {
                     servises.map(service=>(
-                         <Col xs={6} md={6}>
+                         <Col xs={6} md={6} className="service-card">
                               <Card>
                                 <Card.Img style={{height:"250px"}} variant="top" src={service.img} />
                                 <Card.Body>
@@ -30,7 +31,10 @@ const Home = () => {
                                     <Card.Text>
                                         {service.description}
                                     </Card.Text>
-                                    <Button variant="primary">Go somewhere</Button>
+                                    {/* <Button variant="success">
+                                        More Details
+                                    </Button> */}
+                                    <Link>More Details</Link>
                                 </Card.Body>
                                 </Card>
                         </Col>
