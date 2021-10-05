@@ -7,7 +7,7 @@ This project was bootstrapped with [Islami Teaching Center](https://islamic-teac
 
 ## Available Scripts
 
-In the project directory, you can run:
+* In this project
 
 ### `npm start`
 
