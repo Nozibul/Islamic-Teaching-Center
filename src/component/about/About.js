@@ -18,7 +18,7 @@ const About = () => {
                         <div>
                             <h1 className="contant">Welcome to Almanar Islamic Center for Muslims</h1>
                             <p className="description">
-                            Islamic center” is a place for the Muslim community to refresh their knowledge and non-muslims to know about Islam. It creates awareness about the Islamic lifestyle and also the teachings of the prophet Muhammad(s.a.w). The Hajj house inside the Islamic center will be more helpful and guidance for them to perform Umrah and Hajj.
+                            Islamic center” Is a place for the Muslim community to refresh their knowledge and non-muslims to know about Islam. It creates awareness about the Islamic lifestyle and also the teachings of the prophet Muhammad(s.a.w). The Hajj house inside the Islamic center will be more helpful and guidance for them to perform Umrah and Hajj.
                             </p>
                             <Button variant="success">More About</Button>
                         </div>
