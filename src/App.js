@@ -18,7 +18,7 @@ import Footer from './component/Footer/Footer';
 function App() {
   return (
     <div className="App">
-        
+         
         <Router>
           {/* Header nav link */}
            <Header />
@@ -32,14 +32,14 @@ function App() {
                <Home />
              </Route>
 
-             <Route path="/about">
+             <Route exact path="/about">
                <About />
              </Route>
 
-             <Route path="/services">
+             <Route exact path="/services">
                <Services />
              </Route>
-             <Route path="/contact">
+             <Route exact path="/contact">
                <Contact />
              </Route>
 
@@ -49,6 +49,7 @@ function App() {
           </Switch>
         </Router>
         <Footer />
+       
     </div>
   );
 }

@@ -33,10 +33,6 @@ const Home = () => {
                                         {service.description}
                                         <h4>Per Pakage: ${service.price}</h4>
                                    </Card.Text>
-
-                                   <Link to={`/home/${service.name}`}>
-                                     <Button>More Details</Button>                                       
-                                   </Link>
                                    
                                    </Card.Body>
                                 </Card>
