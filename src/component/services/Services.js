@@ -19,7 +19,7 @@ const Services = () => {
             <Row >
                 
                 {
-                    moreServises.map((moreService, index)=>(
+                    moreServises?.map((moreService, index)=>(
                          <Col key={index} xs={6} md={4} className="single-card">
                              
                               <Card className="carded">

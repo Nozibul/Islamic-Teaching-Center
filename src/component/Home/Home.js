@@ -22,7 +22,7 @@ const Home = () => {
             <Row>
                 
                 {
-                    servises.slice(0, 4).map((service,index)=>(
+                    servises?.slice(0, 4).map((service,index)=>(
                          <Col key={index} xs={6} md={6} className="service-card">
                              
                               <Card>
