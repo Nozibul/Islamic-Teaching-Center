@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Islamic Teaching and Service Center
 
 
 This project was bootstrapped with [https://islamic-teaching-center.netlify.app/](https://islamic-teaching-center.netlify.app/).
