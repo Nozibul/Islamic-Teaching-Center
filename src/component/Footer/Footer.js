@@ -29,7 +29,8 @@ const Footer = () => {
                      </Col>
                     <Col sm={4} md={4}>
                       <h2>Newsletter</h2>
-                      <input placeholder="email address"></input>
+                      <h5>contact: 00878493222</h5>
+                      <input placeholder="Enter your Email"></input>
                     </Col>   
                 </Row>
                 

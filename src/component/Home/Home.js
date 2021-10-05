@@ -1,13 +1,13 @@
 import React, { useEffect, useState } from 'react';
 import { Card, Col,  Row , Button, Container} from 'react-bootstrap';
-import { Link } from 'react-router-dom';
+import { Link} from 'react-router-dom';
 import Slider from '../slider/Slider';
 import './home.css'
 
 const Home = () => {
     const [servises, setServices] = useState([])
     useEffect(()=>{
-      fetch('service.json')  
+      fetch('serviceDetail.json')  
       .then(res=>res.json())
       .then(data => setServices(data))
     },[])
@@ -22,8 +22,9 @@ const Home = () => {
             <Row>
                 
                 {
-                    servises.map(service=>(
-                         <Col xs={6} md={6} className="service-card">
+                    servises.slice(0, 4).map((service,index)=>(
+                         <Col key={index} xs={6} md={6} className="service-card">
+                             
                               <Card>
                                 <Card.Img style={{height:"250px"}} variant="top" src={service.img} />
                                 <Card.Body>
@@ -32,6 +33,11 @@ const Home = () => {
                                         {service.description}
                                         <h4>Per Pakage: ${service.price}</h4>
                                    </Card.Text>
+
+                                   <Link to={`/home/${service.name}`}>
+                                     <Button>More Details</Button>                                       
+                                   </Link>
+                                   
                                    </Card.Body>
                                 </Card>
                         </Col>
