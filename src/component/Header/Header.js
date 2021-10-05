@@ -2,6 +2,7 @@ import React from 'react';
 import {  Nav, Navbar } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
 import './header.css'
+import logo from '../../images/quran.png'
 
 const Header = () => {
 
@@ -13,7 +14,8 @@ const Header = () => {
         <div className="header-area">
 
             <div className="title">
-               <h3>Islamic Teaching Center</h3>
+              <img style={{width:"70px", height:"40px"}}src={logo} alt="" />
+               <p>Islamic Teaching Center</p>
             </div>
             <Navbar className="nav-menu" >
                 

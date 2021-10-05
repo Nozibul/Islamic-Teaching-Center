@@ -24,9 +24,11 @@
 }
 
 .title{
-    color:rgb(104, 58, 104);
+    display: flex;
+    align-items: center;
+    color:white;
+    margin-left: 10px;
     text-transform: uppercase;
-    margin-left: 20px;
-    text-align: center;
     padding-top: 10px;
+    font-size: 18px;
 }
