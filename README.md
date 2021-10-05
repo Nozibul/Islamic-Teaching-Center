@@ -1,6 +1,9 @@
 # Getting Started with Create React App
 
+<<<<<<< HEAD
 This project was bootstrapped with [https://islamic-teaching-center.netlify.app/](https://islamic-teaching-center.netlify.app/).
+This project was bootstrapped with [Islami Teaching Center](https://islamic-teaching-center.netlify.app/).
+>>>>>>> 1ed43cd05f681dcdcf2b1bcb818abb43676a984a
 
 ## Available Scripts
 
