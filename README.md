@@ -7,7 +7,9 @@ This project was bootstrapped with [Islami Teaching Center](https://islamic-teac
 
 ## Available Scripts
 
-* In this project
+* It is possible to gain knowledge about any Islamic organization by using this application.
+* Be an Online and offline services use this application.
+* Easy to use o this application
 
 ### `npm start`
 
