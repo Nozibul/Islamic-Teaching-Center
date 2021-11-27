@@ -19,7 +19,7 @@ const Header = () => {
             </div>
             <Navbar className="nav-menu" >
                 
-                <Nav className=" m-auto mt-2 mb-2 navlink">
+                <Nav className=" m-auto mt-2 mb-2 ">
                   <NavLink className="nav1" to="/home" activeStyle={activeStyle}>Home</NavLink>
                   <NavLink className="nav1" to="/about" activeStyle={activeStyle}>About</NavLink>
                   <NavLink className="nav1" to="/services" activeStyle={activeStyle}>Services</NavLink>
